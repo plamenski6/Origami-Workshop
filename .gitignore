@@ -10,6 +10,7 @@
 
 # production
 /build
+workshop-styles.css
 
 # misc
 .DS_Store
