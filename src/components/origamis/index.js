@@ -33,9 +33,9 @@ class Origamis extends Component {
             <div className={styles.container}>
                 <h1 className={styles.title}>Origamis</h1>
                 <div className={styles['origamis-wrapper']}>
-                    {origamis.map(origami => {
+                    {origamis.map((origami, index) => {
                         return (
-                            <Origami key={origami._id} {...origami}/>
+                            <Origami key={origami._id} index={index} {...origami} />
                         )
                     })}
                 </div>
