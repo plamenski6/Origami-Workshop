@@ -5,14 +5,16 @@ import Aside from '../aside'
 import Footer from '../footer'
 
 
-function PageWrapper(props) {
+function PageLayout(props) {
 
   return (
     <div className={styles.app}>
       <Header />
       <div>
         <Aside />
-        {props.children}
+        <div className={styles['inner-container']}>
+          {props.children}
+        </div>
       </div>
       <Footer />
     </div>
@@ -20,4 +22,4 @@ function PageWrapper(props) {
 
 }
 
-export default PageWrapper
+export default PageLayout
