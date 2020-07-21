@@ -1,4 +1,4 @@
-const getNavigation = (userId) => {
+const getNavigation = (userid) => {
     const links =[
         {
             title:"Publications",
@@ -10,7 +10,7 @@ const getNavigation = (userId) => {
         },
         {
             title:"Profile",
-            link:`/profile/${userId}`
+            link:`/profile/${userid}`
         },
         {
             title:"Register",
