@@ -2,6 +2,8 @@
 
 # dependencies
 /node_modules
+/REST API/node_modules
+/REST API/.vscode
 /.pnp
 .pnp.js
 
