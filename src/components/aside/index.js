@@ -15,7 +15,6 @@ class Aside extends Component {
         } = this.context
         
         const links = getNavigation(loggedIn, user)
-        
         return (
             <aside className={styles.aside}>
                 {
